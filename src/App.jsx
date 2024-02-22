@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import IndexShower from "./IndexShower";
 
 function App() {
   const someArray = ["abc", "def", "ghi", "jkl"];
@@ -28,6 +29,7 @@ function App() {
           </div>
         ))}
       </div>
+      <IndexShower clickedIndex={activeIndex} />
     </>
   );
 }
